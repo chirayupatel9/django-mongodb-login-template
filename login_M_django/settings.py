@@ -19,7 +19,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "django-insecure-y%d50cuh@^#0q3jojun&=gs^bp3^^k91ywg#7f+)#ik%2-&rp$"
+SECRET_KEY = "add_yours"
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -88,7 +88,7 @@ DATABASES = {
         "NAME": "totalrecords2",
 
         "CLIENT": {
-            "host": "mongodb+srv://admin:YaLtxqzWBseXTqQc@cluster0.gnwyvcr.mongodb.net/?retryWrites=true&w=majority",
+            "host": "mongodb+srv://username:password@cluster0.gnwyvcr.mongodb.net/?retryWrites=true&w=majority",
 
         },
 
